@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: Poppins, sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+main{
+    display: flex;
+    height: 100vh;
+    
+    
+}
+.left-section{
+    width: 40vw;
+    background-color: #0071FF;
+    height: 100%;
+    background: url('./img/lotto.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.right-section{
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+h3, .fname{
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+.desc{
+    width: 80%;
+    font-size: 1.6rem;
+}
+label{
+    display: block;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin-bottom: .3rem;
+}
+.box{
+    width: 48%;
+    margin-top: 2rem;
+}
+.input__field{
+    height: 4.5rem;
+    width: 100%;
+    outline: none;
+    font-size: 1.6rem;
+    padding-left: 5px;   
+}
+.containing__box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.checkboxes{
+    margin-top: 1.5rem;
+    
+}
+.terms{
+    margin-top: .7rem;
+}
+span{
+    font-size: 1.4rem;
+}
+.policy{
+    color: #0071FF;
+    cursor: pointer;
+}
+button{
+    outline:none;
+    border: none;
+    height: 45px;
+    font-size: 1.8rem;
+    background-color: #0071ff;
+    width: 250px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.holdingSuccessMessage{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 30%;
+    right: 40%;
+}
+.message{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.greetUser{
+    text-align: center;
+}
+.continue{
+    margin: auto;
+    display: block;
+    margin-top: 1.3rem;
+}

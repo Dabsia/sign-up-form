@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sign Up</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <main>
+        <section class="left-section"></section>
+        <section class="right-section">
+            <div class="holder">
+
+                <h1 class = 'register'>Register</h1>
+                <h3>Manage all your lottery efficiently</h3>
+                <p class="desc">Let's get you all setup so you can verify your personal account and begin setting up your profile
+                </p>
+                <!-- form -->
+                <form action="" id = 'myForm'>
+                    <div class="containing__box">
+                        <div class="box">
+                            <label for="fname">FirstName</label>
+                            <input class = 'input__field' type="text" name="fname" id="fname">
+                        </div>
+                        <div class="box">
+                            <label for="lname">LastName</label>
+                            <input class = 'input__field' type="text" name="lname" id="lname">
+                        </div>
+                    </div>
+                    <div class="containing__box">
+                        <div class="box">
+                            <label for="number">Phone Number</label>
+                            <input class = 'input__field' type="number" name="number" id="number">
+                        </div>
+                        <div class="box">
+                            <label for="email">Email</label>
+                            <input class = 'input__field' type="email" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="containing__box">
+                        <div class="box">
+                            <label for="password">Password</label>
+                            <input class = 'input__field pword1' type="password" name="password" id="password">
+                        </div>
+                        <div class="box">
+                            <label for="cpassword">Confirm Password</label>
+                            <input class = 'input__field pword2' type="password" name="cpassword" id="cpassword">
+                        </div>
+                    </div>
+                    <!-- CheckBoxes -->
+                    <div class="checkboxes">
+                        <input type="checkbox" name="terms" id="terms">
+                        <span>Yes i want to receive Lottery Display emails</span>
+                        <div class="terms">
+                            <input type="checkbox" name="terms2" id="terms2">
+                            <span>I agree to all the <span class = 'policy'>Terms, Privacy Policy</span>  and 
+                            <span class = 'policy'>Fees</span></span>    
+                        </div>    
+                        
+                    </div>
+
+                    <button class = 'createAcct'>Create Account</button>
+                    
+                </form>
+            </div>
+
+        </section>
+        
+    </main>
+    <div class="holdingSuccessMessage">
+        <div class="successMessage">
+            <h3 class="greetUser">Hello </h3>
+            <p class="message">Your Account has been created. Click Ok to Continue</p>
+            <button class="continue">OK</button>
+        </div>
+    </div>
+    
+    <script src='main.js'></script>
+</body>
+</html>
