@@ -5,7 +5,8 @@ let pword2 = document.querySelector('.pword2');
 let holdingSuccessMessage = document.querySelector('.holdingSuccessMessage');
 let main = document.querySelector('main');
 let ContinueBTN = document.querySelector('.continue')
-
+let username = document.querySelector('.username');
+let fname = document.getElementById('fname')
 
 const submitForm = (e) => {
     e.preventDefault()
@@ -18,6 +19,8 @@ const submitForm = (e) => {
             holdingSuccessMessage.style.display = 'flex';
             holdingSuccessMessage.style.zIndex = '1';
             main.style.zIndex = '-1';
+            localStorage.setItem('fname', fname.value)
+            username.textContent = localStorage.getItem('fname')
         }
     })
    

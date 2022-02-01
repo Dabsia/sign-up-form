@@ -24,31 +24,31 @@
                     <div class="containing__box">
                         <div class="box">
                             <label for="fname">FirstName</label>
-                            <input class = 'input__field' type="text" name="fname" id="fname">
+                            <input class = 'input__field' type="text" required name="fname" id="fname">
                         </div>
                         <div class="box">
                             <label for="lname">LastName</label>
-                            <input class = 'input__field' type="text" name="lname" id="lname">
+                            <input class = 'input__field' type="text" required name="lname" id="lname">
                         </div>
                     </div>
                     <div class="containing__box">
                         <div class="box">
                             <label for="number">Phone Number</label>
-                            <input class = 'input__field' type="number" name="number" id="number">
+                            <input class = 'input__field' type="number" required name="number" id="number">
                         </div>
                         <div class="box">
                             <label for="email">Email</label>
-                            <input class = 'input__field' type="email" name="email" id="email">
+                            <input class = 'input__field' type="email" required name="email" id="email">
                         </div>
                     </div>
                     <div class="containing__box">
                         <div class="box">
                             <label for="password">Password</label>
-                            <input class = 'input__field pword1' type="password" name="password" id="password">
+                            <input class = 'input__field pword1' type="password" required name="password" id="password">
                         </div>
                         <div class="box">
                             <label for="cpassword">Confirm Password</label>
-                            <input class = 'input__field pword2' type="password" name="cpassword" id="cpassword">
+                            <input class = 'input__field pword2' type="password" required name="cpassword" id="cpassword">
                         </div>
                     </div>
                     <!-- CheckBoxes -->
@@ -56,7 +56,7 @@
                         <input type="checkbox" name="terms" id="terms">
                         <span>Yes i want to receive Lottery Display emails</span>
                         <div class="terms">
-                            <input type="checkbox" name="terms2" id="terms2">
+                            <input type="checkbox" required name="terms2" id="terms2">
                             <span>I agree to all the <span class = 'policy'>Terms, Privacy Policy</span>  and 
                             <span class = 'policy'>Fees</span></span>    
                         </div>    
@@ -73,7 +73,7 @@
     </main>
     <div class="holdingSuccessMessage">
         <div class="successMessage">
-            <h3 class="greetUser">Hello </h3>
+            <h3 class="greetUser">Hello <span class = 'username'>name</span></h3>
             <p class="message">Your Account has been created. Click Ok to Continue</p>
             <button class="continue">OK</button>
         </div>
