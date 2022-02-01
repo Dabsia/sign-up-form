@@ -18,7 +18,6 @@ const submitForm = (e) => {
             holdingSuccessMessage.style.display = 'flex';
             holdingSuccessMessage.style.zIndex = '1';
             main.style.zIndex = '-1';
-
         }
     })
    
